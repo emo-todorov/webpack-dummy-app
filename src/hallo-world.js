@@ -1,0 +1,1 @@
+const printGreeting = () => console.log('Hallo Webpack');
