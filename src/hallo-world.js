@@ -1,1 +1,1 @@
-const printGreeting = () => console.log('Hallo Webpack');
+export const printGreeting = () => console.log('Hallo Webpack');
