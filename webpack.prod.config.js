@@ -9,7 +9,8 @@ module.exports = {
         path: path.resolve(__dirname, './dist'),
         filename: 'bundle.[contenthash].js'
     },
-    mode: 'development',
+    tools: 'source-map',
+    mode: 'production',
     module: {
         rules: [
             {
